@@ -58,8 +58,6 @@ BEGIN
 	WHERE Nombre = @user and pass = @pass
 END
 Go
-EXEC LoginCliente 'brenda' ,'1234'
-exec LoginCliente 'brenda', '1234'
 
 CREATE PROCEDURE UpdateCliente(@Id int, @Nombre varchar(50), @Apellidos varchar(75), @Direccion varchar(150))
 AS
